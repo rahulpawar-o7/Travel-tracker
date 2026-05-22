@@ -374,7 +374,21 @@
   <h2 class="total-count">Total Countries: <%=total%>
   </h2>
   <script>
+    const country_codes = "<%= countries %>".split(",");
     
+    country_codes.forEach(code => {
+      
+      const cleanCode = code.trim(); 
+      
+      const countryPath = document.getElementById(cleanCode);
+      
+      
+      if (countryPath) {
+        countryPath.style.fill = 'teal';
+      } else {
+        console.log("Warning: Map me is country ka path nahi hai ->", cleanCode);
+      }
+    });
     
   </script>
 </body>

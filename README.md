@@ -1,4 +1,4 @@
-# 🌍 Family Travel Tracker
+# 🌍 Travel Tracker
  
 A web application that lets you track visited countries on an interactive world map. Type a country name, hit Add, and watch it light up in teal on the SVG map — with a live counter of total countries visited.
  
@@ -156,8 +156,8 @@ Browser                    Express Server              PostgreSQL
  
 **1. Clone the repository**
 ```bash
-git clone https://github.com/rahulpawar-o7/Family-Travel-Tracker.git
-cd Family-Travel-Tracker
+git clone https://github.com/rahulpawar-o7/Travel-tracker.git
+cd Travel-tracker
 ```
  
 **2. Install dependencies**
